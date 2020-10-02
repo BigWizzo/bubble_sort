@@ -18,11 +18,11 @@ def bubble_sort_by(array)
     x = 0
     while x < length - 1 do
             if (array[x+1] != nil) 
-               yield array[x], array[x + 1]
-             if(array[x].length > array[x + 1].length)
-                    array[x], array[x + 1] = array[x + 1], array[x]
-                    x = 0  
-             end                           
+                yield array[x], array[x + 1]
+                if(array[x].length > array[x + 1].length)
+                       array[x], array[x + 1] = array[x + 1], array[x]
+                       x = 0  
+                end                           
             end           
         x += 1
     end
@@ -31,4 +31,4 @@ end
 
 bubble_sort_by(%w[hi, hello, hey]) do |left, right|
     left.length - right.length
-    end
+end
