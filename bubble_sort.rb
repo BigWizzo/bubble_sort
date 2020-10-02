@@ -1,9 +1,9 @@
 def bubble_sort(array)
-	length = array.length	
+  length = array.length
 	x = 0
 	while x < length - 1
 		if !array[x + 1].nil? && array[x] > array[x + 1]
-			array[x], array[x + 1] = array[x + 1], array[x]
+		  array[x], array[x + 1] = array[x + 1], array[x]
 			x = 0
 		end
 		x += 1
