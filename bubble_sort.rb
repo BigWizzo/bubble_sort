@@ -7,8 +7,8 @@ def bubble_sort(array)
       x = 0
     end
     x += 1
-	end
-	p array
+  end
+  p array
 end
 
 bubble_sort([2, -5, 2, 0, 1, 4, 17])
@@ -17,7 +17,7 @@ def bubble_sort_by(array)
   length = array.length
   x = 0
   while x < length - 1
-    unless array[x + 1] == nil
+    unless array[x + 1].nil?
       yield array[x], array[x + 1]
       if array[x].length > array[x + 1].length
         array[x], array[x + 1] = array[x + 1], array[x]
