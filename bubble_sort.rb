@@ -19,7 +19,7 @@ def bubble_sort_by(array)
       yield array[x], array[x + 1]
       if array[x].length > array[x + 1].length
         array[x], array[x + 1] = array[x + 1], array[x]
-        x = 0
+        x = -1
       end
     end
     x += 1
