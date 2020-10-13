@@ -2,64 +2,51 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> Bubble Sort
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+Implementing the bubble sort algorithm
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+**To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
+- Basic Ruby knowledge
 
 ### Setup
+- git clone https://github.com/BigWizzo/bubble_sort.git
 
 ### Install
+- npm
+- Ruby
+- Text Editor
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
-
+- On the terminal run ruby bubble_sort.rb
 
 ## Authors
 
-👤 **Author1**
+👤 **Will Nyamunokora**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/bigwizzo)
+- Twitter: [@twitterhandle](https://twitter.com/willnyamunokora)
+- Linkedin: [linkedin](https://linkedin.com/in/willnyamunokora)
 
-👤 **Author2**
+👤 **Kingsley Ibeh**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/Kingobaino1)
+- Twitter: [@twitterhandle](https://twitter.com/ibehkingso)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ibeh-kingsley-obinna-568596177)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/BigWizzo/bubble_sort/issues).
 
 ## Show your support
 
@@ -73,4 +60,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
